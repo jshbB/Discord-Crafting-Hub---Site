@@ -27,7 +27,7 @@ body {
 @media (max-width: 768px) {
     .hero {
         flex: 1;
-        min-width: calc(100% - 20px); /* Full width on smaller screens with a small margin */
+        min-width: calc(100% - 20px); 
         margin: 50px 0;
         margin-left: 20px;
     }
@@ -42,17 +42,17 @@ body {
 
 }
 
-/* Plans Section Styles */
+
 #plans {
     margin-top: 350px;
     padding: 40px;
-    background-color: #f8f9fa; /* Light gray background color, change as needed */
+    background: linear-gradient(#8B0000, #8B12);
 }
 
 #plans h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #343a40; /* Dark color for the heading, change as needed */
+    color: whitesmoke;
 }
 
 #plans ul {
@@ -60,16 +60,16 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-around;
 }
 
 #plans li {
     flex: 1;
-    min-width: calc(33.33% - 20px); /* Set a minimum width for each plan on larger screens */
+    min-width: calc(33.33% - 20px);
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ced4da; /* Border color, change as needed */
+    border: 1px solid #ced4da; 
     border-radius: 8px;
     text-align: center;
 }
@@ -77,39 +77,41 @@ body {
 #plans h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #007bff; /* Blue color for the plan titles, change as needed */
+    color: wheat; 
+    font-family: "DM Sans", sans-serif;
 }
 
 #plans p {
-    color: #6c757d; /* Dark gray color for the plan descriptions, change as needed */
+    color: wheat;  
+    font-family: "DM Sans", sans-serif;
 }
 
-/* Media query for smaller screens */
+
 @media (max-width: 768px) {
     #plans li {
         flex: 1;
-        min-width: calc(100% - 20px); /* Full width on smaller screens with a small margin */
+        min-width: calc(100% - 20px); 
         margin: 10px 0;
     }
 }
 .contact {
     padding: 40px;
-    background-color: #f4f4f4; /* Lighter gray background color, change as needed */
+    background-color: #8B12;
 }
 
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #343a40; /* Dark color for the heading, change as needed */
+    color: whitesmoke; 
 }
 
 .contact p {
     margin-bottom: 15px;
-    color: #6c757d; /* Dark gray color for the text, change as needed */
+    color: burlywood; 
 }
 
 .contact-info a {
-    color: #007bff; /* Blue color for links, change as needed */
+    color: #007bff; 
     text-decoration: none;
 }
 
