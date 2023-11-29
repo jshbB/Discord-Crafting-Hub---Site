@@ -5,6 +5,7 @@ html {
 }
 body {
 	background: radial-gradient(circle, rgb(107, 2, 2) 50%, rgb(43, 9, 9) 120%);
+    font-family: "DM Sans", sans-serif;
 }
 .hero {   
     margin-left: 150px;
@@ -97,6 +98,7 @@ body {
 .contact {
     padding: 40px;
     background-color: #8B12;
+    font-family: "DM Sans", sans-serif;
 }
 
 .contact h2 {
