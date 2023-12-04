@@ -35,7 +35,6 @@ body {
 }
 
 .getstarted{
-	margin-top: 20px;
 }
 .hero img {
     margin-left: 500px;
@@ -45,7 +44,12 @@ body {
 
 
 #plans {
-    margin-top: 350px;
+    margin-top: 500px;
+  
+    color: white;
+
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
     padding: 40px;
     background: linear-gradient(#8B0000, #8B12);
     font-family: "DM Sans", sans-serif;
